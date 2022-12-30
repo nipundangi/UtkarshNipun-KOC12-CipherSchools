@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Cars7</h1> 
+        <div class="navbarlinks">
+            <a href="#Login">Login</a>
+            <a href="#Signup">Sign Up</a>
+            <a href="#Bookings">Manage Bookings</a>
+            <a href="#Popular Locations">Popular Locations</a>
+        </div>
+
+    </header>
+    <main class="main">
+        <section class="mainbanner">
+            <div class="top">
+                <img src="/Img/banner.png" alt="Banner Image" class="banner">
+                <h3 class="bannertext">Cars7 | Search Compare and Save</h3>
+            </div>
+        </section>       
+        <div class="sec2">
+            <div clas="form">
+                <form class="form1">
+                    <div class="triptype">
+                        Purpose of your Rental: Pesronal<input type="radio" name="purpose" id="rentalpurpose">Business<input type="radio" name="purpose" id="rentalpurpose">
+                    </div>
+                    <div class="plocation">
+                        <p class="p1">Pickup Location : </p>
+                        <input type="text" name="location" id="loc" placeholder="Your Location">
+                    </div>
+                    <div class="date">
+                        <div class="pickup">
+                            <p class="p2">Pickup Date : </p> 
+                            <input type="date" name="pickupdate" id="pickdate" class="in1">
+                            <input type="time" name="pickuptime" id="ptime" class="in2">
+                        </div>
+                        <div class="drop">
+                            <p class="p3">Drop off Date : </p>
+                            <input type="date" name="dropoffdate" id="dropdate" class="in3">
+                            <input type="time" name="dropofftime" id="droptime" class="in4">
+                        </div>
+                        <div class="btn">
+                        <input type="button" name="Search" value="Search">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="locations">
+                <h2>Popular Locations</h2>
+                <div class="div1">
+                    <div class="sqaure1"><p class="p11">Jaipur</p>
+                        <img src="/Img/Jaipur.jpg" class="i1">
+                    </div>
+                    <div class="square2"><p class="p12">Mumbai</p>
+                        <img src="/Img/Mumbai.jpg" class="i2">
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="square3"><p class="p13">Goa</p>
+                        <img src="/Img/Goa.jpg" class="i3">
+                    </div>
+                    <div class="square4"><p class="p14">Delhi</p>
+                        <img src="/Img/delhi.jpg" alt="" class="i4">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    
+</body>
+</html>
